@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-widt, initial-scale=1.0">
+    <title>Tadulako University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu ()"></i>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="About.html">ABOUT</a></li>
+                            <li><a href="course.html">COURSE</a></li>
+                            <li><a href="blog.html">BLOG</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                </div>
+                    <i class="fa fa-bars" onclick="showMenu ()"></i>
+        </nav>
+        <h1>Sertifikat & Program Kami Tahun 2023</h1>
+
+    </section>
+
+    <!-- ----------- blog page content ---------- -->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/sertifikat.jpg">
+            <h2>Sertifikat & Program Kami Tahun 2023</h2>
+            <p>Keberadaan Perguruan Tinggi Negeri di Sulawesi Tengah, sebagai cikal bakal UNTAD dibagi dalam 3 (tiga) tahapa perjalanan sejarah.Tahapan pertama; periode UNTAD Status Swasta (1963-1966), tahapan kedua; periode UNTAD Status Cabang (1966-1981), dan Tahapan ketiga; periode UNTAD Status Perguruan Tinggi Negeri yang berdiri sendiri (1981-sekarang).</p>
+            <br>
+            <p>Tadulako dalam konsep dan persepsi komunitas Kaili adalah “julukan atau personifikasi” bagi siapa saja yang berhasil pulang membawa  kemenangan dalam perang. Tadulako juga, memiliki makna bagi mereka yang berhasil dalam tugas membela dan mempertahankan “kedaulatan” Kerajaan, dari serangan atau ancaman dari luar.</p>
+            <br>
+            <p>Tadulako pada zaman kejayaan raja-raja dahulu, adalah mereka yang menjaga, membela dan mempertahankan “kedaulatan” sebuah Kerajaan dari serangan atau intervensi dari Kerajaan lain. Oleh karena itu, Tadulako disebut juga “Polapi bambara numadika” (perisai /pelindung kekuasaan raja). Tadulako secara kongkrit berarti Pemimpin dan menurut sifatnya, Tadulako berarti keutamaan, dengandemikian makna tadulako adalah pemimpin yang memiliki sifat-sifat keutamaan (adil, bijaksana, jujur, cerdas, berani, bersemangat, pengayom, pembela kebenaran).</p>
+            <br>
+            <p>Tadulako dalam perspektif To Kaili masa kini, tidak hanya pemimpin, tokoh atau pahlawan. Siapa saja warga negara yang memiliki sifat dan karakter yang melekat sebagai identitas Tadulako yang disebutkan di atas. Sifat dan karakter yang melekat pada julukan Tadulako yang hidup pada zaman dulu dan Tadulako yang sekarang, tidak mengalami perubahan yang berarti, walaupun zamannya berbeda,dalam arti kondisi sosial religius dan sosial politik telah berubah.</p>
+
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Busines Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+
+<!-- ---- Footer ---- -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>2023 JTI Untad. Pemrograman Web <i class="fa-solid fa-robot"></i> I Gusti Ngurah Agung Kade Dwi Arsana_F52121039 Sistem Informasi 21 </p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made With  <i class="fa-regular fa-heart"></i> by DwArsa</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ------JavaScript for toggle Menu------ -->
+<script>
+
+    var navLinks = document.getElementById ("navLinks");
+
+    function showMenu () {
+        navLinks.style.right = "0";
+    }
+    function hideMenu () {
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

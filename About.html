@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-widt, initial-scale=1.0">
+    <title>Tadulako University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu ()"></i>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="About.html">ABOUT</a></li>
+                            <li><a href="course.html">COURSE</a></li>
+                            <li><a href="blog.html">BLOG</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                </div>
+                    <i class="fa fa-bars" onclick="showMenu ()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+
+
+    </section>
+
+<!-- ----- about us  content ----- -->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Universitas Tadulako Adalah Pilihan Terbaik</h1>
+            <p>Universitas Tadulako, disingkat Untad, adalah perguruan tinggi negeri di Palu, Indonesia, sesaui Keppres No. 36 Tahun 1981 Universitas Tadulako berdiri pada tanggal 14 Agustus 1981. Rektor yang sekarang menjabat pada periode 2019-2023 adalah Prof. Dr. Ir. Mahfudz, MP.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/dosen.jpg">
+        </div>
+    </div>
+</section>
+
+
+<!-- ---- Footer ---- -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>2023 JTI Untad. Pemrograman Web <i class="fa-solid fa-robot"></i> I Gusti Ngurah Agung Kade Dwi Arsana_F52121039 Sistem Informasi 21 </p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made With  <i class="fa-regular fa-heart"></i> by DwArsa</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ------JavaScript for toggle Menu------ -->
+<script>
+
+    var navLinks = document.getElementById ("navLinks");
+
+    function showMenu () {
+        navLinks.style.right = "0";
+    }
+    function hideMenu () {
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
